@@ -8,7 +8,7 @@ const NewBoardModal = ({ open, setOpen, handleAddBoard }) => {
   
   useEffect(() => {
     return () => {
-        setNewBoardName("");
+        setNewBoardName(""); //.
     }
   },  [])
   return (
